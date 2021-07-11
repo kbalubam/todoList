@@ -149,6 +149,10 @@ inputTask.addEventListener("keyup",  (e)=> {
          bDelete.addEventListener("click",()=>{
              divGlob.remove();
          })
+         clearButton.addEventListener("click",()=>{
+            divGlob.remove();
+    
+        })
     
     
 
@@ -157,12 +161,10 @@ inputTask.addEventListener("keyup",  (e)=> {
     }
 })
 
-let element = document.querySelectorAll(".divGlob")
-clearButton.addEventListener("click",(element)=>{
-    if(element.classList=="divGlob"){
-        element.remove();
-    }
-})
+
+
+
+
 
 
 
